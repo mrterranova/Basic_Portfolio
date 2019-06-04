@@ -1,29 +1,95 @@
-body { 
-    background-color: #eee;
-    margin: 20px 70px 30px 90px;
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin: 0px 0px 0px 40px;
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 10px;
+    float: left;
+    clear: both;
 }
-#vertical-line  {
+
+nav {
+    float: right;
+    align-content: center;
+    margin-top: 30px;
+    margin-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(109, 109, 109);
+}
+
+#textUnder {
+    background-color: #fff;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#vertical-line-2  {
     width: 940px;
     height: 3px;
     align-content: center;
     background-color: #ddd;
 }
-h1 {
+
+h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 200%;
-    margin: 0px;
-    margin-left: 10px;
-    color: rgb(27, 117, 105);
+    font-size: 150%;
+    margin:200px 0px 0px 0px;
+    color: #4aaaa5;
 }
 .imgframe {
-    margin: 50px 30px 30px 30px;
+    margin: 0px 20px 20px 20px;
     background:rgb(178, 208, 212);
-    padding: 5px;
-    border 1px solid #eee;
+    padding: 1px;
     float: left;
 }
 
 .rightPic {
     margin-top: 30px;
-    margin-right: 50px;
+    margin: 0 auto;
+}
+
+#bottomLine { 
+    height: 3px;
+    margin-top: 30px;
+    background-color: #4aaaa5;
+    width: 103%;
+    margin-left:-10px;
+}
+
+footer {
+    background-color:rgb(66, 66, 66);
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    width:103%;
+    margin-left:-10px;
+}
+
+#blockText {
+    background-color: gray;
+    height: auto;
+    width: auto;
+    position: relative;
+    margin: 0 auto 0 auto;
+    position: relative;
+    width:103%;
+    margin-left:-10px;
+}
+
+#insideBlock {
+    width:960px;
+    background-color: #eee;
+    position: relative;
+    width: 960px;
 }
