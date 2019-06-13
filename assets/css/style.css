@@ -165,18 +165,23 @@ input[type=submit] {
 }
 
 #hang{
-background: url(http://lorempixel.com/400/200/technics/1/);
+    background-image: url('../images/loremImage6.jpg');
+    background-repeat: no-repeat;
 }
 
 #rpg{
-background: url(http://lorempixel.com/400/200/technics/2/);
+    background-image: url('../images/loremImage2.jpg');
+    background-repeat: no-repeat;
 }
 #triv{
-background: url(http://lorempixel.com/400/200/technics/5/);
+    background-image: url('../images/loremImage3.jpg');
+    background-repeat: no-repeat;
 }
 #rut{
-background:url(http://lorempixel.com/400/200/technics/7/);
+    background-image: url('../images/loremImage4.jpg');
+    background-repeat: no-repeat;
 }
 #rock{
-background: url(http://lorempixel.com/400/200/technics/9/);
+    background-image: url('../images/loremImage5.jpg');
+    background-repeat: no-repeat;
 }
